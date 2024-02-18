@@ -1,0 +1,26 @@
+.notecard {
+  background-color: rgb(178, 241, 170) !important;
+  transition: all .3s;
+}
+
+.notecard:hover {
+  border: 2px solid black;
+  transform: translateY(-15px);
+  -webkit-box-shadow:  10px 11px 24px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow:  10px 11px 24px -8px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 11px 24px -8px rgba(0, 0, 0, 0.75);
+}
+
+.card-body i {
+  cursor: pointer;
+}
+
+.card-body i:hover {
+  color: cornflowerblue;
+  font-size: 20px;
+  /* box-shadow: 10px 11px 24px -8px rgba(0, 0, 0, 0.75); */
+}
+
+#addnotesec {
+  transition: all 2s;
+}
