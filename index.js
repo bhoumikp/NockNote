@@ -1,4 +1,5 @@
 require('dotenv').config()
+import path from 'path'
 const connectToMongo = require('./db')
 const express = require("express");
 const cors = require('cors')
